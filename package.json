@@ -5,11 +5,10 @@
     "lint": "eslint .",
     "serve": "firebase emulators:start --only functions",
     "shell": "firebase functions:shell",
-    "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log",
     "start": "react-scripts start",
-  "build": "react-scripts build",
+    "build": "react-scripts build"
   },
   "engines": {
     "node": "16"
